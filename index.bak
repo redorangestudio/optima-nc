@@ -1,0 +1,554 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html xmlns:fb="http://ogp.me/ns/fb#" prefix="og:http://ogp.me/ns#" class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html xmlns:fb="http://ogp.me/ns/fb#" prefix="og:http://ogp.me/ns#" class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html xmlns:fb="http://ogp.me/ns/fb#" prefix="og:http://ogp.me/ns#" class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns:fb="http://ogp.me/ns/fb#" prefix="og:http://ogp.me/ns#" lang="en"> <!--<![endif]--><head>
+<title>Optima Health</title><meta name="copyright" content="Optima Health"/>
+<meta name="CG4" content="WWW"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Optima Health" />
+<meta property="og:description" content="Optima Health" />
+<meta property="og:image" content="xxx" />
+<meta property="og:url" content="xxx" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<meta name="description" content="xxxx">
+
+<link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans+Condensed:700|Open+Sans:400,700,800" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/public/styles/distillery_styles.css">
+
+</head>
+<body>
+    <div id="app" class="global-wrapper">
+        <div id="top"></div>
+        <div id="contact-us"></div>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header__logo">
+                <img class="oh-image-svg" src="assets/public/images/logo-optima.svg" alt="">
+            </div>
+            <div class="header__title">
+                <h1>Introducing Optima Family Care of North Carolina</h1>
+            </div>
+            <!-- Ref: oh-navigation.js -->
+            <div id="js-header__menu" class="header__menu-wrapper">
+                <div class="header__menu-trigger js-header__menu-trigger" @click="toggleMenu()">
+                    Menu
+                </div>
+                <nav>
+                    <ul class="header__menu" :class="{'header__menu--active' : showMenu}">
+                        <li><a class="header__menu-link" href="#medicaid-in-nc">Medicaid in Nc</a></li>
+                        <li><a class="header__menu-link" href="#a-proven-model">A Proven Model</a></li>
+                        <li><a class="header__menu-link" href="#how-we-work">How We Work</a></li>
+                        <li><a class="header__menu-link" href="#our-results">Our Results</a></li>
+                        <li><a class="header__menu-link" href="#partner-with-optima">Partner With Optima Health</a></li>
+                        <li><a class="header__menu-link" href="#participate">Participate</a></li>
+                        <li><a class="header__menu-link js-smooth-scroll" href="#contact-us" @click.prevent="toggleModal">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Medicaid in NC -->
+        <div class="section" id="medicaid-in-nc">
+            <div class="section__header">
+                <h4 class="section__title">
+                    <span>
+                        Medicaid In NC
+                    </span>
+                </h4>
+                <h2 class="section__headline">
+                    Medicaid is transforming in North Carolina
+                </h2>
+            </div>
+            <div class="col-wrap">
+                <div class="col">
+                    <div class="col-image-wrapper">
+                        <div class="col-image icon-calendar" style="background-image:url('assets/public/images/icon-calendar.svg')"></div>
+                    </div>
+                    <div class="col-text">
+                        <p>In 2019, the current fee-for-service model in North Carolina moves to a <span class="highlight highlight--purple">Managed Care approach</span>. Provider Led Entities (PLEs) are being formed to help manage the care of beneficiaries within this new model.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-image-wrapper">
+                        <div class="col-image" style="background-image:url('assets/public/images/icon-medicaid-state.svg');"></div>
+                    </div>
+                    <div class="col-text">
+                        <p><span class="highlight highlight--purple">Optima Family Care of North Carolina</span>, part of the Sentara Healthcare family, has submitted a license application to the North Carolina Department of Insurance and plans to locally operate a Provider Led Entity.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-image-wrapper">
+                        <div class="col-image" style="background-image:url('assets/public/images/logo-sentara.svg')"></div>
+                    </div>
+                    <div class="col-text">
+                        <p>Sentara Healthcare is a nationally respected Managed Care Organization with more than <span class="highlight highlight--purple">127 years&rsquo; experience operating hospitals and provider groups.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- A Proven Model -->
+        <div class="section" id="a-proven-model">
+            <div class="section__header">
+                <h4 class="section__title">
+                    A Proven Model
+                </h4>
+                <h2 class="section__headline">
+                    A proven model of Medicaid care delivery
+                </h2>
+            </div>
+            <div class="col-wrap">
+                <div class="col col--two-col">
+                    <div class="col-left">
+                        <img class="oh-image-model" src="assets/public/images/icon-virginia.svg" alt="">
+                    </div>
+                    <div class="col-right">
+                        <p>
+                            <span class="highlight highlight--purple">Optima Health, in collaboration with local providers</span>, is a leader of Medicaid Managed Care efforts in Virginia.
+                        </p>
+                    </div>
+                </div>
+                <div class="col col--two-col">
+                    <div class="col-left">
+                        <img class="oh-image-model oh-image--services" src="assets/public/images/icon-services.svg" alt="">
+                    </div>
+                    <div class="col-right">
+                        <p>
+                            Since 1997, Optima Health has served Virginia’s Medicaid recipients. Currently, we are <span class="highlight highlight--purple">providing services to 185,000 members in Virginia</span>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- How We Work -->
+        <div class="section" id="how-we-work">
+            <div class="section__header">
+                <h4 class="section__title">
+                    How We Work
+                </h4>
+                <h2 class="section__headline">
+                    Optima Family Care of North Carolina
+                </h2>
+            </div>
+            <div class="col-wrap">
+                <div class="col">
+                    <div class="col-image-wrapper col-image-wrapper--how">
+                        <div class="col-image" style="background-image:url('assets/public/images/icon-hands.svg');"></div>
+                    </div>
+                    <div class="col-text">
+                        <p>
+                            <span class="highlight highlight--purple">Will partner with local providers</span> to remove barriers and expand access to medical care in North Carolina, including implementing preventive programs created specifically for rural populations.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-image-wrapper col-image-wrapper--how">
+                        <div class="col-image" style="background-image:url('assets/public/images/icon-advisory.svg');"></div>
+                    </div>
+                    <div class="col-text">
+                        <p>
+                            <span class="highlight highlight--teal">Will create an advisory committee</span>, made up of local providers, to ensure providers have an opportunity to share their vision for the PLE and its outcome for beneficiaries.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-image-wrapper col-image-wrapper--how">
+                        <div class="col-image" style="background-image:url('assets/public/images/icon-money.svg');"></div>
+                    </div>
+                    <div class="col-text">
+                        <p>
+                            <span class="highlight highlight--gray">Will be operated locally</span>, and with guidance from North Carolina Medicaid providers and advisory members, to determine how Medicaid dollars are spent in the state.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Our Results -->
+        <div class="section" id="our-results">
+            <div class="section__header">
+                <h4 class="section__title">
+                    Our Results
+                </h4>
+                <h2 class="section__headline">
+                    Transforming care in North Carolina at our Sentara Albemarle Medical Center since 2014
+                </h2>
+            </div>
+
+            <h3>Patient care improvements</h3>
+            <div class="section-rows">
+                <div class="section-rows__column">
+                    <div class="section-rows__image-wrapper">
+                        <div class="section-rows__image icon-meds" style="background-image:url('assets/public/images/icon-meds.svg');"></div>
+                    </div>
+                    <div class="section-rows__text">
+                        <p>Launched Meds to Beds bedside medication delivery in partnership with Todd’s Pharmacy</p>
+                    </div>
+                </div>
+                <div class="section-rows__column">
+                    <div class="section-rows__image-wrapper">
+                        <div class="section-rows__image" style="background-image:url('assets/public/images/icon-hospital-group.svg');"></div>
+                    </div>
+                    <div class="section-rows__text">
+                        <p>Improved patient satisfaction in hospital departments and emergency department to meet community expectations</p>
+                    </div>
+                </div>
+                <div class="section-rows__column">
+                    <div class="section-rows__image-wrapper">
+                        <div class="section-rows__image" style="background-image:url('assets/public/images/icon-syringe.svg');"></div>
+                    </div>
+                    <div class="section-rows__text">
+                        <p>Hired a patient navigator to assist orthopedic and oncology patients</p>
+                    </div>
+                </div>
+                <div class="section-rows__column">
+                    <div class="section-rows__image-wrapper">
+                        <div class="section-rows__image icon-doc-patient" style="background-image:url('assets/public/images/icon-doc-patient.svg');"></div>
+                    </div>
+                    <div class="section-rows__text">
+                        <p>Decreased rate of patient readmission by providing the right care, at the right time, and in the right place</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="section-row-divider">
+
+            <h3>New Healthcare providers hired in 2016 for local patients</h3>
+            <div class="icon-grid">
+                <div class="icon-col">
+
+                        <div class="icon-col__image" style="background-image:url('assets/public/images/icon-general-surgeons.svg');"></div>
+
+                    <div class="icon-col__stat">
+                        2
+                    </div>
+                    <div class="icon-col__text">
+                        General Surgeons
+                    </div>
+                </div>
+                <div class="icon-col">
+
+                        <div class="icon-col__image" style="background-image:url('assets/public/images/icon-surgeon.svg');"></div>
+
+                    <div class="icon-col__stat">
+                        1
+                    </div>
+                    <div class="icon-col__text">
+                        General Surgery PA
+                    </div>
+                </div>
+                <div class="icon-col">
+
+                        <div class="icon-col__image" style="background-image:url('assets/public/images/icon-orthopedic.svg');"></div>
+
+                    <div class="icon-col__stat">
+                        2
+                    </div>
+                    <div class="icon-col__text">
+                        Ortopedic Surgeons
+                    </div>
+                </div>
+                <div class="icon-col">
+
+                        <div class="icon-col__image" style="background-image:url('assets/public/images/icon-syringe-teal.svg');"></div>
+
+                    <div class="icon-col__stat">
+                        1
+                    </div>
+                    <div class="icon-col__text">
+                        Anesthesiologist
+                    </div>
+                </div>
+                <div class="icon-col">
+
+                        <div class="icon-col__image" style="background-image:url('assets/public/images/icon-syringe-purple.svg');"></div>
+
+                    <div class="icon-col__stat">
+                        1
+                    </div>
+                    <div class="icon-col__text">
+                        Critical Care Intensivist
+                    </div>
+                </div>
+                <div class="icon-col">
+
+                        <div class="icon-col__image" style="background-image:url('assets/public/images/icon-stethoscopes.svg');"></div>
+
+                    <div class="icon-col__stat">
+                        3
+                    </div>
+                    <div class="icon-col__text">
+                        Primary Care Providers
+                    </div>
+                </div>
+                <div class="icon-col">
+                        <div class="icon-col__image" style="background-image:url('assets/public/images/icon-med-packs.svg');"></div>
+
+                    <div class="icon-col__stat">
+                        4
+                    </div>
+                    <div class="icon-col__text">
+                        Urgent Care Providers
+                    </div>
+                </div>
+                <div class="icon-col">
+                        <div class="icon-col__image" style="background-image:url('assets/public/images/icon-babies.svg');"></div>
+
+                    <div class="icon-col__stat">
+                        2
+                    </div>
+                    <div class="icon-col__text">
+                        Pediatricians
+                    </div>
+                </div>
+            </div>
+
+            <hr class="section-row-divider">
+
+            <h3>Our rural Initiatives</h3>
+
+            <div class="section-rows section-rows--five">
+                <div class="section-rows__column">
+                    <div class="section-rows__image-wrapper">
+                        <div class="section-rows__image icon-meds" style="background-image:url('assets/public/images/icon-lungs.svg');"></div>
+                    </div>
+                    <div class="section-rows__text">
+                        <p>Low-dose CT lung screenings to help detect lung cancer earlier</p>
+                    </div>
+                </div>
+                <div class="section-rows__column">
+                    <div class="section-rows__image-wrapper">
+                        <div class="section-rows__image icon-meds" style="background-image:url('assets/public/images/icon-seniors.svg');"></div>
+                    </div>
+                    <div class="section-rows__text">
+                        <p>Sentara Living health education series for those 50 and older</p>
+                    </div>
+                </div>
+                <div class="section-rows__column">
+                    <div class="section-rows__image-wrapper">
+                        <div class="section-rows__image icon-meds" style="background-image:url('assets/public/images/icon-head.svg');"></div>
+                    </div>
+                    <div class="section-rows__text">
+                        <p>Tele-stroke program to provide care to stroke patients faster</p>
+                    </div>
+                </div>
+                <div class="section-rows__column">
+                    <div class="section-rows__image-wrapper">
+                        <div class="section-rows__image icon-meds" style="background-image:url('assets/public/images/icon-mammogram.svg');"></div>
+                    </div>
+                    <div class="section-rows__text">
+                        <p>Decreased wait from a mammogram to biopsy</p>
+                    </div>
+                </div>
+                <div class="section-rows__column">
+                    <div class="section-rows__image-wrapper">
+                        <div class="section-rows__image icon-meds" style="background-image:url('assets/public/images/icon-hands-group.svg');"></div>
+                    </div>
+                    <div class="section-rows__text">
+                        <p>$30 million in local charity care</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Partner With Optima -->
+        <div class="section" id="partner-with-optima">
+            <div class="section__header">
+                <h4 class="section__title">
+                    Partner With Optima
+                </h4>
+                <h2 class="section__headline">
+                    It’s easy to partner with Optima Family Care of North Carolina
+                </h2>
+                <div class="section__subheadline">
+                    Our Provider Connection portal is a self-service, online provider tool available <strong>24 hours a day, 7 days a week</strong>, that offers:
+                </div>
+            </div>
+
+            <div class="col-wrap">
+                <div class="col">
+                    <div class="col-image-wrapper col-image-wrapper--partner">
+                        <div class="col-image" style="background-image:url('assets/public/images/icon-computer.svg');"></div>
+                    </div>
+                    <!-- <img class="oh-image-svg" src="assets/public/images/icon-computer.svg" alt=""> -->
+                </div>
+                <div class="col">
+                    <ul class="oh-list">
+                        <li>Drug formularies and pharmacy authorization forms</li>
+                        <li>Medical authorization forms</li>
+                        <li>Easy enrollment for Electronic Funds Transfer (EFT)</li>
+                        <li>Provider manuals</li>
+                        <li>Provider newsletter and important updates</li>
+                        <li>Verification of member eligibility and benefits</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="oh-list">
+                        <li>PCP membership reports</li>
+                        <li>Submission and review of authorization requests </li>
+                        <li>Claim status checks</li>
+                        <li>Reconsideration submissions</li>
+                        <li>Payment remittance advice</li>
+                        <li>C3 (Clear Claims Connection) access</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="provider-network">
+                <div class="provider-network__left">
+                    <div class="provider-network__bar">
+                        Our Provider Network education and support offers:
+                    </div>
+                    <div class="provider-network__row">
+                        <div class="provider-network__image">
+                            <img class="oh-image-svg" src="assets/public/images/icon-faq.svg" alt="">
+                        </div>
+                        <div class="provider-network__text">
+                            <strong>Field Network Educators</strong><br>
+                            A direct resource for education, assistance, trouble shooting, and individualized one-on-one support.
+                        </div>
+                    </div>
+                    <div class="provider-network__row">
+                        <div class="provider-network__image">
+                            <img class="oh-image-svg" src="assets/public/images/icon-contact.svg" alt="">
+                        </div>
+                        <div class="provider-network__text">
+                            <strong>Provider Relations Contact Center</strong><br>
+                            Access to a team of Provider Relations representatives to address claims, authorizations, and member eligibility questions/concerns.
+                        </div>
+                    </div>
+                </div>
+                <div class="provider-network__right">
+                    <div class="provider-network__graphic provider-network__graphic--stethoscope"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Participate -->
+        <div class="section" id="participate">
+            <div class="provider-network provider-network--paper">
+                <div class="provider-network__left">
+                    <div class="section__header section__header--left">
+                        <h4 class="section__title">
+                            Participate
+                        </h4>
+                        <h2 class="section__headline">
+                            Participate with Optima Family Care of North Carolina!
+                        </h2>
+                    </div>
+                    <p class="focus red">
+                        By signing a <strong>non-binding Letter of Interest (LOI)</strong> with Optima Family Care of North Carolina, you are expressing interest in participating as a provider of healthcare services with Optima Family Care of North Carolina.
+                    </p>
+                    <p class="focus red">
+                        <a class="oh-link" target="_blank" href="assets/files/OptimaHealthofNC-PLE-LetterofInterest-RegionVI-Sep-2017.pdf">Click here to download the LOI</a>
+                    </p>
+                    <p class="focus red">
+                        <a class="oh-link" target="_blank" href="#">Click here to view Updates and Important Documents</a>
+                    </p>
+                    <p>
+                        Contract requirements and rates will be provided at a later date when NCDHHS releases this information.
+                    </p>
+                    <p>
+                        <em>Signing does not obligate the provider to contract with Optima Family Care of North Carolina.</em>
+                    </p>
+                </div>
+                <div class="provider-network__right">
+                    <div class="provider-network__graphic provider-network__graphic--papers"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="call-to-action">
+            Join Optima Family Care of North Carolina today! <br/>
+            Call <a href="tel:757-687-6183" class="oh-cta-link">(757) 687-6183</a> or <a class="oh-cta-link js-modal-trigger js-smooth-scroll" href="#contact-us" @click.prevent="toggleModal">Click here to Contact Us</a>
+        </div>
+        <footer class="footer">
+
+            <div class="footer__inner">
+                Optima Family Care of North Carolina, part of the Sentara Healthcare family, has submitted a license application to the North Carolina Department of Insurance and plans to locally operate a Provider Led Entity.
+            </div>
+
+        </footer>
+
+        <div class="oh-contact" id="oh-modal" :class="{'oh-contact--active' : showModal}">
+
+            <div class="oh-contact__bg" @click="toggleModal"></div>
+
+            <div class="oh-contact__inner-wrap">
+                <div class="oh-contact__close" @click="toggleModal"></div>
+                <h3>Contact Us</h3>
+
+                <p>
+                    Call (757) 687-6183 or submit the form below and an Optima Health representative will contact you.
+                </p>
+                <div class="oh-contact__form">
+
+                    <form class="" action="index.html" method="post">
+                        <div class="oh-contact__row">
+                            <input class="oh-contact__input" type="text" name="" value="" placeholder="First Name" required>
+                        </div>
+                        <div class="oh-contact__row">
+                            <input class="oh-contact__input" type="text" name="" value="" placeholder="Last Name" required>
+                        </div>
+                        <div class="oh-contact__row">
+                            <input class="oh-contact__input" type="phone" name="" value="" placeholder="Contact Telephone Number" required>
+                        </div>
+                        <div class="oh-contact__row">
+                            <input class="oh-contact__input" type="email" name="" value="" placeholder="Contact Email Address" required>
+                        </div>
+                        <div class="oh-contact__row">
+                            <input class="oh-contact__input" type="text" name="" value="" placeholder="Practice Name (Legal Name)">
+                        </div>
+                        <div class="oh-contact__row">
+                            <input class="oh-contact__input" type="text" name="" value="" placeholder="Contact/Practice Address">
+                            <div class="oh-contact__description">
+                                (PO Boxes should not be used for physical practice location.)
+                            </div>
+                        </div>
+                        <div class="oh-contact__row">
+                            <input class="oh-contact__input" type="text" name="" value="" placeholder="Provider Type (Physician Group, DME, Hospital)">
+                        </div>
+                        <div class="oh-contact__row">
+                            <input class="oh-contact__input" type="text" name="" value="" placeholder="If not a Physician Practice, please provide Servicing Counties">
+                        </div>
+                        <div class="oh-contact__row">
+                            <textarea class="oh-contact__textarea" name="name" rows="8" cols="80" placeholder="Message"></textarea>
+                        </div>
+                        <div class="oh-contact__row oh-contact__row--submit">
+                            <input class="call-to-action__button" type="submit" name="" value="Submit"> <a href="#contact-us" class="js-smooth-scroll call-to-action__button call-to-action__button--medium-teal" @click.prevent="toggleModal">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <a href="#top" @click.prevent="scrollToTop" class="js-smooth-scroll back-to-top">Back to Top</a>
+
+    </div> <!-- Global Wrap -->
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/public/scripts/distillery_scripts.js" charset="utf-8"></script>
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>
